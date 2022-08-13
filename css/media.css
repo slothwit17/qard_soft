@@ -1,0 +1,1395 @@
+/*====large Devices====*/
+/*==========================*/
+/*==========================*/
+
+@media(min-width:992px) and (max-width:1199px){
+    .content-left {
+        width: 250px;
+        margin-right: 10px;
+    }
+    .content-right {
+        max-width: 730px;
+    }
+    .content-main {
+        justify-content: center;
+    }
+    .donate-extra {
+        width: 370px;
+    }
+    .donate-content-item select {
+        width: 285px;
+    }
+    .profile-right {
+        width: 338px;
+    }
+    .profile-video video {
+        width: 375px;
+        height: 211px;
+    }
+    .video-overlay {
+        width: 97%;
+    }
+    .donate-content-item button {
+        padding: 11px 27px;
+    }
+    .profile-donate-buttons button {
+        padding: 10px 15px;
+    }
+    .group-card-left {
+        width: 330px;
+    }
+    .group-card-right {
+        width: 330px;
+    }
+    .card-img {
+        width: 330px;
+    }
+    .card-content {
+        margin-bottom: 10px;
+    }
+}
+
+
+/*====Medium Devices====*/
+/*==========================*/
+/*==========================*/
+
+@media(min-width:769px) and (max-width:991.98px){
+   
+    .icon{
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        }
+    .icon i{
+        font-size: 12px;
+    }
+    .icon-overlay {
+        top: -10px;
+        left: 20px;
+    }
+    .search{
+        padding-top: 5px;
+    }
+    .nav-left{
+        gap: 10px;
+    }
+    .navber {
+        padding: 16px;
+    }
+    .logo {
+        width: 170px;
+    }
+    .menu {
+        gap: 12px;
+    }
+    
+
+
+    /* ===============content part========================= */
+    .content-main {
+        display: flex;
+        justify-content: center;
+    }
+    .content-right {
+        max-width: 800px;
+    }
+    .body{
+        position: relative;
+    }
+    .content-left {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: -400px;
+        /* padding: 10px;
+        text-align: right;
+        gap: 10px;
+        background: #c11616;
+        z-index: 9999;
+        position: static;
+        height: 185%; */
+        transition: all linear .3s;
+    }
+
+    #filter_toggle[type=checkbox]:checked ~ .container .content-main .content-left{
+        display: block;
+        padding: 10px;
+        text-align: left;
+        gap: 10px;
+        background: #f0f0f0;
+        z-index: 9999;
+        height: 745px;
+        left: 8%;
+        z-index: 999;
+    }
+    .filter{
+        width: 22px;
+        height: 22px;
+        background-color: #54aa4f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        position: fixed;
+        z-index: 99999;
+    }
+    .filter i{
+        color: #fff;
+    }
+
+
+    .heading{
+        text-align: center;
+    }
+    .donate {
+        padding: 20px;
+    }
+    .donate-content-item{
+        display: flex;
+        justify-content: center;
+    }
+    .donate-content-item select {
+        width: 257px;
+    }
+    .donate-content {
+        display: flex;
+    }
+    .donate-extra {
+        justify-content: space-between;
+        width: 55%;
+        padding-top: 0px;
+    }
+    .donate-content-item button {
+        padding: 11px 26px;
+        font-size: 12px;
+    }
+    
+
+    /* profile part */
+
+    .profile {
+        display: block;
+        /* justify-content: space-between; */
+        /* margin-top: 30px; */
+        /* background-color: #fff; */
+        /* padding-top: 30px; */
+        /* padding-bottom: 30px; */
+        padding-right: 20px;
+        padding-left: 20px;
+        /* border-radius: 15px; */
+    }
+    .profile-left {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-left-contetns{
+        width: 260px;
+        text-align: left;
+    }
+    .profile-video {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-video video {
+        width: 90%;
+        height: 100%;
+        border-radius: 15px;
+        /* border-bottom-right-radius: 15px; */
+    }
+    .video-overlay {
+        width: 90%;
+        left: 20px;
+    }
+    .profile-tags{
+        display: flex;
+        justify-content: space-around;
+    }
+    .profile-tags button {
+        padding: 10px 10px;
+    }
+    .overlay-content p {
+        padding: 9px;
+        font-size: 12px;
+        margin: 12px;
+    }
+    .profile-tags {
+        padding-left: 0px;
+    }
+    .button1 {
+        /* background-color: #ead8ea; */
+        /* color: #b163b3; */
+        margin-left: 0px !important;
+    }
+    .profile-name {
+        display: flex;
+        /* padding-top: 30px; */
+        /* padding-left: 30px; */
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .profile-varification {
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .profile-right {
+        width: 100%;
+    }
+    .heading-linehight h3 {
+        padding-top: 25px;
+        text-align: left;
+    }
+    .dot-line {
+        justify-content: start;
+    }
+    .profile-right-text {
+        height: 140px;
+    }
+    .funded {
+        /* display: flex; */
+        /* justify-content: space-between; */
+        padding: 10px 0;
+    }
+    .profile-donate-buttons button {
+        padding: 10px 80px;
+        /* font-family: 'Roboto', sans-serif; */
+        font-size: 12px;
+        /* font-weight: 400; */
+        /* color: #fff; */
+        /* background-color: #838383; */
+        /* border: none; */
+        /* border-radius: 10px; */
+        /* transition: all linear .3s; */
+    }
+    .profile-donate-content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile-donate-buttons {
+        width: 55%;
+    }
+    .profile-donate-buttons button {
+        padding: 10px 26px;
+    }
+    .profile-donate select {
+        font-size: 12px;
+        width: 257px;
+    }
+
+    /* group part */
+    .group-main {
+        /* background-color: #fff; */
+        padding: 20px;
+        /* margin-top: 30px; */
+    }
+    .group-card {
+        display: block;
+        width: 100%;
+    }
+    .group-card-left {
+        width: 100%;
+        margin-right: 5px;
+    }
+    .group-card-right {
+        width: 100%;
+        margin-left: 5px;
+    }
+    .card-img {
+        width: 100%;
+        height: 100%;
+    }
+    .card-img-overlay {
+        width: 99.99%;
+        height: 100%;
+    }
+    .color-w h3 {
+        padding-top: 30%;
+        text-align: left;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+    }
+    .group-card-slider .prev_arrow {
+        left: 20%;
+    }
+    .group-card-slider .next_arrow {
+        right: 20%;
+    }
+
+}
+
+
+/*====Medium Devices====*/
+/*==========================*/
+/*==========================*/
+
+@media(min-width:624px) and (max-width:768.98px){
+
+       .icon{
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        }
+    .icon i{
+        font-size: 12px;
+    }
+    .icon-overlay {
+        top: -10px;
+        left: 20px;
+    }
+    .search{
+        padding-top: 5px;
+    }
+    .nav-left{
+        gap: 10px;
+    }
+    .navber {
+        padding: 16px;
+    }
+    .logo {
+        width: 170px;
+    }
+    .menu {
+        gap: 12px;
+    }
+    
+
+
+    /* ===============content part========================= */
+    .content-main {
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .body{
+        position: relative;
+    }
+    .content-left {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: -400px;
+        /* padding: 10px;
+        text-align: right;
+        gap: 10px;
+        background: #c11616;
+        z-index: 9999;
+        position: static;
+        height: 185%; */
+        transition: all linear .3s;
+    }
+
+    #filter_toggle[type=checkbox]:checked ~ .container .content-main .content-left{
+        display: block;
+        padding: 10px;
+        text-align: left;
+        gap: 10px;
+        background: #f0f0f0;
+        z-index: 9999;
+        height: 745px;
+        left: 8%;
+        z-index: 999;
+    }
+    .filter{
+        width: 22px;
+        height: 22px;
+        background-color: #54aa4f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        position: fixed;
+        z-index: 99999;
+    }
+    .filter i{
+        color: #fff;
+    }
+
+
+    .heading{
+        text-align: center;
+    }
+    .donate {
+        padding: 20px;
+    }
+    .donate-content-item{
+        display: flex;
+        justify-content: center;
+    }
+    .donate-content-item select {
+        width: 257px;
+    }
+    .donate-content {
+        display: flex;
+    }
+    .donate-extra {
+        justify-content: space-between;
+        width: 55%;
+        padding-top: 0px;
+    }
+    .donate-content-item button {
+        padding: 11px 26px;
+        font-size: 12px;
+    }
+    
+
+    /* profile part */
+
+    .profile {
+        display: block;
+        /* justify-content: space-between; */
+        /* margin-top: 30px; */
+        /* background-color: #fff; */
+        /* padding-top: 30px; */
+        /* padding-bottom: 30px; */
+        padding-right: 20px;
+        padding-left: 20px;
+        /* border-radius: 15px; */
+    }
+    .profile-left {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .profile-left-contetns{
+        width: 260px;
+        text-align: left;
+    }
+    .profile-video {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-video video {
+        width: 90%;
+        height: 100%;
+        border-radius: 15px;
+        /* border-bottom-right-radius: 15px; */
+    }
+    .video-overlay {
+        width: 90%;
+        left: 20px;
+    }
+    .profile-tags{
+        display: flex;
+        justify-content: space-around;
+    }
+    .profile-tags button {
+        padding: 10px 10px;
+    }
+    .overlay-content p {
+        padding: 9px;
+        font-size: 12px;
+        margin: 12px;
+    }
+    .profile-tags {
+        padding-left: 0px;
+    }
+    .button1 {
+        /* background-color: #ead8ea; */
+        /* color: #b163b3; */
+        margin-left: 0px !important;
+    }
+    .profile-name {
+        display: flex;
+        /* padding-top: 30px; */
+        /* padding-left: 30px; */
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .profile-varification {
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .profile-right {
+        width: 100%;
+    }
+    .heading-linehight h3 {
+        padding-top: 25px;
+        text-align: left;
+    }
+    .dot-line {
+        justify-content: start;
+    }
+    .profile-right-text {
+        height: 140px;
+    }
+    .funded {
+        /* display: flex; */
+        /* justify-content: space-between; */
+        padding: 10px 0;
+    }
+    .profile-donate-buttons button {
+        padding: 10px 80px;
+        /* font-family: 'Roboto', sans-serif; */
+        font-size: 12px;
+        /* font-weight: 400; */
+        /* color: #fff; */
+        /* background-color: #838383; */
+        /* border: none; */
+        /* border-radius: 10px; */
+        /* transition: all linear .3s; */
+    }
+    .profile-donate-content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .profile-donate-buttons {
+        width: 55%;
+    }
+    .profile-donate-buttons button {
+        padding: 10px 26px;
+    }
+    .profile-donate select {
+        font-size: 12px;
+        width: 257px;
+    }
+
+    /* group part */
+    .group-main {
+        /* background-color: #fff; */
+        padding: 20px;
+        /* margin-top: 30px; */
+    }
+    .group-card {
+        display: block;
+        width: 100%;
+    }
+    .group-card-left {
+        width: 100%;
+        margin-right: 5px;
+    }
+    .group-card-right {
+        width: 100%;
+        margin-left: 5px;
+    }
+    .card-img {
+        width: 100%;
+        height: 100%;
+    }
+    .card-img-overlay {
+        width: 99.99%;
+        height: 100%;
+    }
+    .color-w h3 {
+        padding-top: 30%;
+        text-align: left;
+    }
+    .slick-initialized .slick-slide {
+        display: flex;
+    }
+    .group-card-slider .prev_arrow {
+        left: 20%;
+    }
+    .group-card-slider .next_arrow {
+        right: 20%;
+    }
+
+
+}
+
+
+/*====low-Medium Devices====*/
+/*==========================*/
+/*==========================*/
+
+@media(min-width:577px) and (max-width:624.98px){
+   
+
+    .menu {
+        display:none;
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        padding: 16px 25px;
+        text-align: right;
+        gap: 10px;
+    }
+    .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        transition: 0.3s ease;
+       }
+    .menu li + li {
+        margin-top: 0px;
+       }
+    #checkbox_toggle[type=checkbox]:checked ~ .menu{
+        display: flex;
+        z-index: 999;
+        background: #fff;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .hamburger {
+        display: block;
+       }
+       .icon{
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        }
+    .icon i{
+        font-size: 12px;
+    }
+    .icon-overlay {
+        top: -10px;
+        left: 20px;
+    }
+    .search{
+        padding-top: 5px;
+    }
+    .nav-left{
+        gap: 10px;
+    }
+    .navber {
+        padding: 16px;
+    }
+    .logo {
+        width: 170px;
+    }
+    
+
+
+    /* ===============content part========================= */
+    .content-main {
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .body{
+        position: relative;
+    }
+    .content-left {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: -400px;
+        /* padding: 10px;
+        text-align: right;
+        gap: 10px;
+        background: #c11616;
+        z-index: 9999;
+        position: static;
+        height: 185%; */
+        transition: all linear .3s;
+    }
+
+    #filter_toggle[type=checkbox]:checked ~ .container .content-main .content-left{
+        display: block;
+        padding: 10px;
+        text-align: left;
+        gap: 10px;
+        background: #f0f0f0;
+        z-index: 9999;
+        height: 745px;
+        left: 8%;
+        z-index: 999;
+    }
+    .filter{
+        width: 22px;
+        height: 22px;
+        background-color: #54aa4f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        position: fixed;
+        z-index: 99999;
+    }
+    .filter i{
+        color: #fff;
+    }
+
+
+    .heading{
+        text-align: center;
+    }
+    .donate {
+        padding: 20px;
+    }
+    .donate-content-item{
+        display: flex;
+        justify-content: center;
+    }
+    .donate-content-item select {
+        width: 235px;
+    }
+    .donate-content {
+        display: flex;
+    }
+    .donate-extra {
+        justify-content: space-between;
+        width: 55%;
+        padding-top: 0px;
+    }
+    .donate-content-item button {
+        padding: 11px 20px;
+        font-size: 12px;
+    }
+
+    /* profile part */
+
+    .profile {
+        display: block;
+        /* justify-content: space-between; */
+        /* margin-top: 30px; */
+        /* background-color: #fff; */
+        /* padding-top: 30px; */
+        /* padding-bottom: 30px; */
+        padding-right: 20px;
+        padding-left: 20px;
+        /* border-radius: 15px; */
+    }
+    .profile-left {
+        width: 100%;
+        text-align: center;
+    }
+    .profile-video {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-video video {
+        width: 90%;
+        height: 100%;
+        border-radius: 15px;
+        /* border-bottom-right-radius: 15px; */
+    }
+    .video-overlay {
+        width: 90%;
+        left: 29px;
+    }
+    .profile-tags{
+        display: flex;
+        justify-content: space-around;
+    }
+    .profile-tags button {
+        padding: 10px 35px;
+    }
+    .overlay-content p {
+        padding: 9px;
+        font-size: 12px;
+        margin: 12px;
+    }
+    .profile-tags {
+        padding-left: 0px;
+    }
+    .button1 {
+        /* background-color: #ead8ea; */
+        /* color: #b163b3; */
+        margin-left: 0px !important;
+    }
+    .profile-name {
+        display: flex;
+        /* padding-top: 30px; */
+        /* padding-left: 30px; */
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .profile-varification {
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .profile-right {
+        width: 100%;
+    }
+    .dot-line {
+        justify-content: center;
+    }
+    .profile-right-text {
+        height: 140px;
+    }
+    .funded {
+        /* display: flex; */
+        /* justify-content: space-between; */
+        padding: 10px 0;
+    }
+    .profile-donate-buttons button {
+        padding: 10px 80px;
+        /* font-family: 'Roboto', sans-serif; */
+        font-size: 12px;
+        /* font-weight: 400; */
+        /* color: #fff; */
+        /* background-color: #838383; */
+        /* border: none; */
+        /* border-radius: 10px; */
+        /* transition: all linear .3s; */
+    }
+
+
+    /* group part */
+    .group-main {
+        /* background-color: #fff; */
+        padding: 20px;
+        /* margin-top: 30px; */
+    }
+    .group-card {
+        display: block;
+        width: 100%;
+    }
+    .group-card-left {
+        width: 100%;
+    }
+    .group-card-right {
+        width: 100%;
+    }
+    .card-img {
+        width: 100%;
+        height: 100%;
+    }
+    .card-img-overlay {
+        width: 99.99%;
+        height: 100%;
+    }
+    .color-w h3 {
+        padding-top: 30%;
+        text-align: left;
+    }
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+    .group-card-slider .prev_arrow {
+        left: 20%;
+    }
+    .group-card-slider .next_arrow {
+        right: 20%;
+    }
+
+
+}
+
+
+/*====Small Devices====*/
+/*==========================*/
+/*==========================*/
+
+@media(min-width:421px) and (max-width:576.98px){
+    
+    .menu {
+        display:none;
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        padding: 16px 25px;
+        text-align: right;
+        gap: 10px;
+    }
+    .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        transition: 0.3s ease;
+       }
+    .menu li + li {
+        margin-top: 0px;
+       }
+    #checkbox_toggle[type=checkbox]:checked ~ .menu{
+        display: flex;
+        z-index: 999;
+        background: #fff;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .hamburger {
+        display: block;
+       }
+       .icon{
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        }
+    .icon i{
+        font-size: 12px;
+    }
+    .icon-overlay {
+        top: -10px;
+        left: 20px;
+    }
+    .search{
+        padding-top: 5px;
+    }
+    .nav-left{
+        gap: 10px;
+    }
+    .navber {
+        padding: 16px;
+    }
+    .logo {
+        width: 170px;
+    }
+    
+
+
+    /* ===============content part========================= */
+    .content-main {
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .body{
+        position: relative;
+    }
+    .content-left {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: -400px;
+        /* padding: 10px;
+        text-align: right;
+        gap: 10px;
+        background: #c11616;
+        z-index: 9999;
+        position: static;
+        height: 185%; */
+        transition: all linear .3s;
+    }
+
+    #filter_toggle[type=checkbox]:checked ~ .container .content-main .content-left{
+        display: block;
+        padding: 10px;
+        text-align: left;
+        gap: 10px;
+        background: #f0f0f0;
+        z-index: 9999;
+        height: 745px;
+        left: 8%;
+        z-index: 999;
+    }
+    .filter{
+        width: 22px;
+        height: 22px;
+        background-color: #54aa4f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        position: fixed;
+        z-index: 99999;
+    }
+    .filter i{
+        color: #fff;
+    }
+
+
+    .heading{
+        text-align: center;
+    }
+    .donate {
+        padding: 18px;
+    }
+    .donate-content-item{
+        display: flex;
+        justify-content: center;
+    }
+    .donate-content-item select {
+        width: 100%;
+    }
+    .donate-content {
+        display: block;
+    }
+    .donate-extra {
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 15px;
+    }
+    .donate-content-item button {
+        padding: 11px 36px;
+        font-size: 12px;
+    }
+
+    /* profile part */
+
+    .profile {
+        display: block;
+        /* justify-content: space-between; */
+        /* margin-top: 30px; */
+        /* background-color: #fff; */
+        /* padding-top: 30px; */
+        /* padding-bottom: 30px; */
+        padding-right: 10px;
+        padding-left: 10px;
+        /* border-radius: 15px; */
+    }
+    .profile-left {
+        width: 100%;
+        text-align: center;
+    }
+    .profile-video {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-video video {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        /* border-bottom-right-radius: 15px; */
+    }
+    .profile-tags{
+        display: flex;
+        justify-content: space-around;
+    }
+    .profile-tags button {
+        padding: 10px 35px;
+    }
+    .overlay-content p {
+        padding: 9px;
+        font-size: 12px;
+        margin: 12px;
+    }
+    .profile-tags {
+        padding-left: 0px;
+    }
+    .button1 {
+        /* background-color: #ead8ea; */
+        /* color: #b163b3; */
+        margin-left: 0px !important;
+    }
+    .profile-name {
+        display: flex;
+        /* padding-top: 30px; */
+        /* padding-left: 30px; */
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .profile-varification {
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .profile-right {
+        width: 100%;
+    }
+    .dot-line {
+        justify-content: center;
+    }
+    .profile-right-text {
+        height: 220px;
+    }
+    .funded {
+        /* display: flex; */
+        /* justify-content: space-between; */
+        padding: 10px 0;
+    }
+    .profile-donate-buttons button {
+        padding: 10px 47px;
+        /* font-family: 'Roboto', sans-serif; */
+        font-size: 12px;
+        /* font-weight: 400; */
+        /* color: #fff; */
+        /* background-color: #838383; */
+        /* border: none; */
+        /* border-radius: 10px; */
+        /* transition: all linear .3s; */
+    }
+
+
+    /* group part */
+    .group-main {
+        /* background-color: #fff; */
+        padding: 20px;
+        /* margin-top: 30px; */
+    }
+    .group-card {
+        display: block;
+        width: 100%;
+    }
+    .group-card-left {
+        width: 100%;
+    }
+    .group-card-right {
+        width: 100%;
+    }
+    .card-img {
+        width: 100%;
+        height: 100%;
+    }
+    .card-img-overlay {
+        width: 99.99%;
+        height: 100%;
+    }
+    .color-w h3 {
+        padding-top: 30%;
+        text-align: left;
+    }
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+    .group-card-slider .prev_arrow {
+        left: 20%;
+    }
+    .group-card-slider .next_arrow {
+        right: 20%;
+    }
+
+}
+
+
+
+/*====Xtra Small Devices====*/
+/*==========================*/
+/*==========================*/
+
+@media(max-width:420.98px){
+    .menu {
+        display:none;
+        position: absolute;
+        top: 70px;
+        right: 0px;
+        padding: 16px 10px;
+        text-align: right;
+        gap: 10px;
+    }
+    .menu li:hover {
+        display: inline-block;
+        background-color:#4c9e9e;
+        transition: 0.3s ease;
+       }
+    .menu li + li {
+        margin-top: 0px;
+       }
+    #checkbox_toggle[type=checkbox]:checked ~ .menu{
+        display: flex;
+        z-index: 999;
+        background: #fff;
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .hamburger {
+        display: block;
+       }
+       .icon{
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+        }
+    .icon i{
+        font-size: 12px;
+    }
+    .icon-overlay {
+        top: -10px;
+        left: 20px;
+    }
+    .search{
+        padding-top: 5px;
+    }
+    .nav-left{
+        gap: 10px;
+    }
+    .navber {
+        padding: 16px;
+    }
+    .logo {
+        width: 170px;
+    }
+    
+
+
+    /* ===============content part========================= */
+    .content-main {
+        display: block;
+        /* justify-content: space-between; */
+    }
+    .body{
+        position: relative;
+    }
+    .content-left {
+        display: none;
+        position: absolute;
+        top: 87px;
+        left: -400px;
+        /* padding: 10px;
+        text-align: right;
+        gap: 10px;
+        background: #c11616;
+        z-index: 9999;
+        position: static;
+        height: 185%; */
+        transition: all linear .3s;
+    }
+
+    #filter_toggle[type=checkbox]:checked ~ .container .content-main .content-left{
+        display: block;
+        padding: 10px;
+        text-align: left;
+        gap: 10px;
+        background: #f0f0f0;
+        z-index: 9999;
+        height: 745px;
+        left: 8%;
+        z-index: 999;
+    }
+    .filter{
+        width: 22px;
+        height: 22px;
+        background-color: #54aa4f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        position: fixed;
+        z-index: 99999;
+    }
+    .filter i{
+        color: #fff;
+    }
+
+
+    .heading{
+        text-align: center;
+    }
+    .donate {
+        padding: 15px;
+    }
+    .donate-content-item{
+        display: flex;
+        justify-content: center;
+    }
+    .donate-content-item select {
+        width: 100%;
+    }
+    .donate-content {
+        display: block;
+    }
+    .donate-extra {
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 15px;
+    }
+    .donate-content-item button {
+        padding: 11px 19px;
+        font-size: 12px;
+    }
+
+    /* profile part */
+
+    .profile {
+        display: block;
+        /* justify-content: space-between; */
+        /* margin-top: 30px; */
+        /* background-color: #fff; */
+        /* padding-top: 30px; */
+        /* padding-bottom: 30px; */
+        padding-right: 10px;
+        padding-left: 10px;
+        /* border-radius: 15px; */
+    }
+    .profile-left {
+        width: 100%;
+        text-align: center;
+    }
+    .profile-video {
+        display: flex;
+        justify-content: center;
+    }
+
+    .profile-video video {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        /* border-bottom-right-radius: 15px; */
+    }
+    .overlay-content p {
+        padding: 9px;
+        font-size: 12px;
+        margin: 12px;
+    }
+    .profile-tags {
+        padding-left: 0px;
+    }
+    .button1 {
+        /* background-color: #ead8ea; */
+        /* color: #b163b3; */
+        margin-left: 0px !important;
+    }
+    .profile-name {
+        display: flex;
+        /* padding-top: 30px; */
+        /* padding-left: 30px; */
+        justify-content: center;
+        padding: 15px 0;
+    }
+    .profile-varification {
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+
+    .profile-right {
+        width: 100%;
+    }
+    .dot-line {
+        justify-content: center;
+    }
+    .profile-right-text {
+        height: 220px;
+    }
+    .funded {
+        /* display: flex; */
+        /* justify-content: space-between; */
+        padding: 10px 0;
+    }
+    .profile-donate-buttons button {
+        padding: 10px 22px;
+        /* font-family: 'Roboto', sans-serif; */
+        font-size: 12px;
+        /* font-weight: 400; */
+        /* color: #fff; */
+        /* background-color: #838383; */
+        /* border: none; */
+        /* border-radius: 10px; */
+        /* transition: all linear .3s; */
+    }
+
+
+    /* group part */
+    .group-main {
+        /* background-color: #fff; */
+        padding: 20px;
+        /* margin-top: 30px; */
+    }
+    .group-card {
+        display: block;
+        width: 100%;
+    }
+    .group-card-left {
+        width: 100%;
+    }
+    .group-card-right {
+        width: 100%;
+    }
+    .card-img {
+        width: 100%;
+        height: 100%;
+    }
+    .card-img-overlay {
+        width: 99.99%;
+        height: 100%;
+    }
+    .color-w h3 {
+        padding-top: 30%;
+        text-align: left;
+    }
+    .slick-initialized .slick-slide {
+        display: block;
+    }
+    .group-card-slider .prev_arrow {
+        left: 20%;
+    }
+    .group-card-slider .next_arrow {
+        right: 20%;
+    }
+    
+       
+}
+
